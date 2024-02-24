@@ -1,0 +1,30 @@
+Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=121.0.6167.184)
+Stacktrace:
+0   chromedriver                        0x000000010284a814 chromedriver + 4040724
+1   chromedriver                        0x0000000102842a18 chromedriver + 4008472
+2   chromedriver                        0x00000001024b5870 chromedriver + 284784
+3   chromedriver                        0x00000001024ae304 chromedriver + 254724
+4   chromedriver                        0x00000001024a06b8 chromedriver + 198328
+5   chromedriver                        0x000000010249f6e0 chromedriver + 194272
+6   chromedriver                        0x000000010249eac0 chromedriver + 191168
+7   chromedriver                        0x000000010249ea6c chromedriver + 191084
+8   chromedriver                        0x000000010249d108 chromedriver + 184584
+9   chromedriver                        0x000000010249db2c chromedriver + 187180
+10  chromedriver                        0x00000001024b7d5c chromedriver + 294236
+11  chromedriver                        0x00000001025336d4 chromedriver + 800468
+12  chromedriver                        0x0000000102533048 chromedriver + 798792
+13  chromedriver                        0x00000001024ed74c chromedriver + 513868
+14  chromedriver                        0x00000001024ee044 chromedriver + 516164
+15  chromedriver                        0x000000010280fa3c chromedriver + 3799612
+16  chromedriver                        0x0000000102813f1c chromedriver + 3817244
+17  chromedriver                        0x00000001027f8298 chromedriver + 3703448
+18  chromedriver                        0x0000000102814a64 chromedriver + 3820132
+19  chromedriver                        0x00000001027eb054 chromedriver + 3649620
+20  chromedriver                        0x0000000102831e74 chromedriver + 3939956
+21  chromedriver                        0x0000000102831fec chromedriver + 3940332
+22  chromedriver                        0x0000000102842698 chromedriver + 4007576
+23  libsystem_pthread.dylib             0x000000018d9aa034 _pthread_start + 136
+24  libsystem_pthread.dylib             0x000000018d9a4e3c thread_start + 8
+
+HTTPConnectionPool(host='localhost', port=58065): Max retries exceeded with url: /session/f93a53d8c7888ea01fefe200f664b3aa/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1068417c0>: Failed to establish a new connection: [Errno 61] Connection refused'))

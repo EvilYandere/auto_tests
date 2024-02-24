@@ -1,0 +1,11 @@
+Message: Element <button class="control scLarge" type="submit"> is not clickable at point (979,31) because another element <div id="loader-identity"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:335:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+
+HTTPConnectionPool(host='localhost', port=59672): Max retries exceeded with url: /session/a9f7d398-1a8e-415a-85b1-abba7722a860/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1046584d0>: Failed to establish a new connection: [Errno 61] Connection refused'))

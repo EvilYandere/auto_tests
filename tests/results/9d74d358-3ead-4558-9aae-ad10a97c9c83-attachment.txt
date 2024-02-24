@@ -1,0 +1,11 @@
+Message: Element <label> is not reachable by keyboard
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverSendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:668:13
+interaction.sendKeysToElement@chrome://remote/content/marionette/interaction.sys.mjs:642:11
+sendKeysToElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:535:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:150:31
+
+HTTPConnectionPool(host='localhost', port=59496): Max retries exceeded with url: /session/118f56f2-7fc1-4a19-a497-a11b8224f7f4/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104169af0>: Failed to establish a new connection: [Errno 61] Connection refused'))
