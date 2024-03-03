@@ -431,6 +431,9 @@ def test_jewelry_art_chrome():
         with allure.step("Делаем скриншот ошибки"):
             allure.attach(driver.get_screenshot_as_png(), name="chrome_error", attachment_type=AttachmentType.PNG)
 
+            driver.close()
+            driver.quit()
+
     with allure.step("Ищем цену товара в корзине"):
        try:
            price2 = re.findall(r'class="price">(.*?) руб', str(driver.page_source))[0]
@@ -890,6 +893,9 @@ def test_jewelry_art_firefox():
     except AssertionError("Жанр картины - не реализм"):
         with allure.step("Делаем скриншот ошибки"):
             allure.attach(driver.get_screenshot_as_png(), name="firefox_error", attachment_type=AttachmentType.PNG)
+
+            driver.close()
+            driver.quit()
 
     with allure.step("Ищем цену товара в корзине"):
        try:
